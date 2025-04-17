@@ -82,7 +82,7 @@ const (
 	HeaderLocation = "Location"
 
 	// HeaderRetryAfter specifies the HTTP Retry-After header.
-	HeaderRetryAfter = "Retry-After"
+	HeaderRetryAfter = "Retry-After-Ms"
 )
 
 // ResponseHasStatusCode returns true if the status code in the HTTP Response is in the passed set
