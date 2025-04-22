@@ -26,7 +26,7 @@ import (
 	"net/http"
 	"os/user"
 
-	"github.com/Azure/go-autorest/autorest/adal"
+	"github.com/drake-davis/go-autorest/autorest/adal"
 )
 
 const (

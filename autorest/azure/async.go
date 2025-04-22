@@ -25,9 +25,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Azure/go-autorest/autorest"
-	"github.com/Azure/go-autorest/logger"
-	"github.com/Azure/go-autorest/tracing"
+	"github.com/drake-davis/go-autorest/autorest"
+	"github.com/drake-davis/go-autorest/logger"
+	"github.com/drake-davis/go-autorest/tracing"
 )
 
 const (
@@ -128,7 +128,7 @@ func (f Future) PollingMethod() PollingMethodType {
 
 // DoneWithContext queries the service to see if the operation has completed.
 func (f *Future) DoneWithContext(ctx context.Context, sender autorest.Sender) (done bool, err error) {
-	ctx = tracing.StartSpan(ctx, "github.com/Azure/go-autorest/autorest/azure/async.DoneWithContext")
+	ctx = tracing.StartSpan(ctx, "github.com/drake-davis/go-autorest/autorest/azure/async.DoneWithContext")
 	defer func() {
 		sc := -1
 		resp := f.Response()
@@ -197,7 +197,7 @@ func (f Future) GetPollingDelay() (time.Duration, bool) {
 // If PollingDuration is greater than zero the value will be used as the context's timeout.
 // If PollingDuration is zero then no default deadline will be used.
 func (f *Future) WaitForCompletionRef(ctx context.Context, client autorest.Client) (err error) {
-	ctx = tracing.StartSpan(ctx, "github.com/Azure/go-autorest/autorest/azure/async.WaitForCompletionRef")
+	ctx = tracing.StartSpan(ctx, "github.com/drake-davis/go-autorest/autorest/azure/async.WaitForCompletionRef")
 	defer func() {
 		sc := -1
 		resp := f.Response()

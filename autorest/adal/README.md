@@ -8,14 +8,14 @@ for Go](https://github.com/Azure/azure-sdk-for-go).
 
 Note: Despite the package's name it is not related to other "ADAL" libraries
 maintained in the [github.com/AzureAD](https://github.com/AzureAD) org. Issues
-should be opened in [this repo's](https://github.com/Azure/go-autorest/issues)
+should be opened in [this repo's](https://github.com/drake-davis/go-autorest/issues)
 or [the SDK's](https://github.com/Azure/azure-sdk-for-go/issues) issue
 trackers.
 
 ## Install
 
 ```bash
-go get -u github.com/Azure/go-autorest/autorest/adal
+go get -u github.com/drake-davis/go-autorest/autorest/adal
 ```
 
 ## Usage

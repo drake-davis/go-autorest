@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"contrib.go.opencensus.io/exporter/ocagent"
-	"github.com/Azure/go-autorest/tracing"
+	"github.com/drake-davis/go-autorest/tracing"
 	"go.opencensus.io/plugin/ochttp"
 	"go.opencensus.io/stats/view"
 	"go.opencensus.io/trace"

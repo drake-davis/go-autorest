@@ -10,7 +10,7 @@
 
 ## v14.2.0
 
-- Added package comment to make `github.com/Azure/go-autorest` importable.
+- Added package comment to make `github.com/drake-davis/go-autorest` importable.
 
 ## v14.1.1
 
@@ -117,7 +117,7 @@ The `tracing` package has been rewritten to provide a common interface for consu
 What this means is that by default no tracing provider will be compiled into your program and setting the `AZURE_SDK_TRACING_ENABLED`
 environment variable will have no effect.  To enable this previous behavior you must now add the following import to your source file.
 ```go
-  import _ "github.com/Azure/go-autorest/tracing/opencensus"
+  import _ "github.com/drake-davis/go-autorest/tracing/opencensus"
 ```
 The APIs required by autorest-generated code have remained but some APIs have been removed and new ones added.
 The following APIs and variables have been removed (the majority of them were moved to the `opencensus` package).

@@ -27,8 +27,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Azure/go-autorest/logger"
-	"github.com/Azure/go-autorest/tracing"
+	"github.com/drake-davis/go-autorest/logger"
+	"github.com/drake-davis/go-autorest/tracing"
 )
 
 // there is one sender per TLS renegotiation type, i.e. count of tls.RenegotiationSupport enums

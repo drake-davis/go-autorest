@@ -8,7 +8,7 @@
 
 ## go-autorest
 
-[![GoDoc](https://godoc.org/github.com/Azure/go-autorest/autorest?status.png)](https://godoc.org/github.com/Azure/go-autorest/autorest)
+[![GoDoc](https://godoc.org/github.com/drake-davis/go-autorest/autorest?status.png)](https://godoc.org/github.com/drake-davis/go-autorest/autorest)
 [![Build Status](https://dev.azure.com/azure-sdk/public/_apis/build/status/go/Azure.go-autorest?branchName=master)](https://dev.azure.com/azure-sdk/public/_build/latest?definitionId=625&branchName=master)
 [![Go Report Card](https://goreportcard.com/badge/Azure/go-autorest)](https://goreportcard.com/report/Azure/go-autorest)
 
@@ -16,7 +16,7 @@ Package go-autorest provides an HTTP request client for use with [Autorest](http
 
 An authentication client tested with Azure Active Directory (AAD) is also
 provided in this repo in the package
-`github.com/Azure/go-autorest/autorest/adal`.  Despite its name, this package
+`github.com/drake-davis/go-autorest/autorest/adal`.  Despite its name, this package
 is maintained only as part of the Azure Go SDK and is not related to other
 "ADAL" libraries in [github.com/AzureAD](https://github.com/AzureAD).
 
@@ -85,7 +85,7 @@ generated clients, see the Client described below.
 
 The Swagger specification (https://swagger.io) that drives AutoRest
 (https://github.com/Azure/autorest/) precisely defines two date forms: date and date-time. The
-github.com/Azure/go-autorest/autorest/date package provides time.Time derivations to ensure correct
+github.com/drake-davis/go-autorest/autorest/date package provides time.Time derivations to ensure correct
 parsing and formatting.
 
 #### Handling Empty Values
@@ -137,14 +137,14 @@ associated with a key should be cleared. With the helpers, the previous example 
 ## Install
 
 ```bash
-go get github.com/Azure/go-autorest/autorest
-go get github.com/Azure/go-autorest/autorest/azure
-go get github.com/Azure/go-autorest/autorest/date
-go get github.com/Azure/go-autorest/autorest/to
+go get github.com/drake-davis/go-autorest/autorest
+go get github.com/drake-davis/go-autorest/autorest/azure
+go get github.com/drake-davis/go-autorest/autorest/date
+go get github.com/drake-davis/go-autorest/autorest/to
 ```
 
 #### Using with Go Modules
-In [v12.0.1](https://github.com/Azure/go-autorest/pull/386), this repository introduced the following modules.
+In [v12.0.1](https://github.com/drake-davis/go-autorest/pull/386), this repository introduced the following modules.
 
 - autorest/adal
 - autorest/azure/auth

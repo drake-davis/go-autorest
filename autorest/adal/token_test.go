@@ -36,8 +36,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/go-autorest/autorest/date"
-	"github.com/Azure/go-autorest/autorest/mocks"
+	"github.com/drake-davis/go-autorest/autorest/date"
+	"github.com/drake-davis/go-autorest/autorest/mocks"
 	jwt "github.com/golang-jwt/jwt/v4"
 	"github.com/stretchr/testify/assert"
 )

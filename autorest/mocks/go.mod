@@ -1,6 +1,6 @@
 // Deprecated: this module has been deprecated and is no longer supported.
-module github.com/Azure/go-autorest/autorest/mocks
+module github.com/drake-davis/go-autorest/autorest/mocks
 
 go 1.15
 
-require github.com/Azure/go-autorest v14.2.0+incompatible
+require github.com/drake-davis/go-autorest v14.2.0+incompatible

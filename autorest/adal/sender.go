@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Azure/go-autorest/tracing"
+	"github.com/drake-davis/go-autorest/tracing"
 )
 
 const (

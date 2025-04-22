@@ -13,7 +13,7 @@ VM. The following snippet from [the previous section](#use) demonstrates
 this helper.
 
 ```go
-import "github.com/Azure/go-autorest/autorest/azure/auth"
+import "github.com/drake-davis/go-autorest/autorest/azure/auth"
 
 // create a VirtualNetworks client
 vnetClient := network.NewVirtualNetworksClient("<subscriptionID>")

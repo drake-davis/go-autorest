@@ -34,8 +34,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Azure/go-autorest/autorest/date"
-	"github.com/Azure/go-autorest/logger"
+	"github.com/drake-davis/go-autorest/autorest/date"
+	"github.com/drake-davis/go-autorest/logger"
 	"github.com/golang-jwt/jwt/v4"
 )
 

@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Azure/go-autorest/autorest"
-	"github.com/Azure/go-autorest/autorest/azure"
+	"github.com/drake-davis/go-autorest/autorest"
+	"github.com/drake-davis/go-autorest/autorest/azure"
 )
 
 var (

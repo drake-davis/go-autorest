@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Azure/go-autorest/autorest/mocks"
+	"github.com/drake-davis/go-autorest/autorest/mocks"
 )
 
 func ExampleWithErrorUnlessOK() {

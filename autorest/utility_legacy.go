@@ -17,7 +17,7 @@
 
 package autorest
 
-import "github.com/Azure/go-autorest/autorest/adal"
+import "github.com/drake-davis/go-autorest/autorest/adal"
 
 // IsTokenRefreshError returns true if the specified error implements the TokenRefreshError
 // interface.  If err is a DetailedError it will walk the chain of Original errors.

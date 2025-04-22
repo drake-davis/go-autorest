@@ -27,11 +27,11 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	"github.com/Azure/go-autorest/autorest"
-	"github.com/Azure/go-autorest/autorest/adal"
-	"github.com/Azure/go-autorest/autorest/azure"
-	"github.com/Azure/go-autorest/autorest/azure/cli"
-	"github.com/Azure/go-autorest/logger"
+	"github.com/drake-davis/go-autorest/autorest"
+	"github.com/drake-davis/go-autorest/autorest/adal"
+	"github.com/drake-davis/go-autorest/autorest/azure"
+	"github.com/drake-davis/go-autorest/autorest/azure/cli"
+	"github.com/drake-davis/go-autorest/logger"
 	"github.com/dimchansky/utfbom"
 )
 

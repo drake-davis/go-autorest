@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Azure/go-autorest/autorest"
+	"github.com/drake-davis/go-autorest/autorest"
 )
 
 // DoRetryWithRegistration tries to register the resource provider in case it is unregistered.

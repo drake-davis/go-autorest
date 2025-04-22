@@ -47,7 +47,7 @@ struct (e.g., ByUnmarshallingJson) is likely incorrect.
 
 Lastly, the Swagger specification (https://swagger.io) that drives AutoRest
 (https://github.com/Azure/autorest/) precisely defines two date forms: date and date-time. The
-github.com/Azure/go-autorest/autorest/date package provides time.Time derivations to ensure
+github.com/drake-davis/go-autorest/autorest/date package provides time.Time derivations to ensure
 correct parsing and formatting.
 
 Errors raised by autorest objects and methods will conform to the autorest.Error interface.
